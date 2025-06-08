@@ -11,9 +11,18 @@ def get_input ()  :                         # get inputs and return them
 
 
     # get player input
+    while True :
+        try :
+            p_row = int(input ("row: "))
+            p_col = int(input ("col: "))
+            
+            if p_row in options and p_col in options :
+                break
+            else :
+                print ("invalid! try btn (1,2,3)")
+        except ValueError :
+                print ("only numbers btn (1,2,3)")
 
-    p_row = int(input ("row: "))
-    p_col = int(input ("col: "))
     c_plr = [p_row,p_col]
 
     # return
@@ -23,6 +32,7 @@ def get_input ()  :                         # get inputs and return them
 
 val = get_input()
 print (val)
+
 
 
 
