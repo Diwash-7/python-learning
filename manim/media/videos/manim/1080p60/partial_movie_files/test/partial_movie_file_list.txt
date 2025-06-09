@@ -1,3 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/home/diwash/Documents/codes/python-learning/.vscode/media/videos/manim/1080p60/partial_movie_files/test/3977891868_4075843229_223132457.mp4'
-file 'file:/home/diwash/Documents/codes/python-learning/.vscode/media/videos/manim/1080p60/partial_movie_files/test/2852726489_2552855209_3078800686.mp4'
