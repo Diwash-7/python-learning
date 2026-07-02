@@ -26,3 +26,19 @@ def only_odd(n):
  return odd
 
 print ("odd no.:",only_odd(n))
+
+#Write a function that takes a string and returns how many vowels are in it.
+
+
+def vowels(text):
+  
+  vowel=['a','e','i','o','u']
+  count = 0
+  
+  for i in text:
+    if i in vowel:
+     count += 1
+  
+  return count
+
+print ("no. of vowels:"+vowels("khateee"))
