@@ -41,4 +41,16 @@ def vowels(text):
   
   return count
 
-print ("no. of vowels:"+vowels("khateee"))
+print ("no. of vowels:",vowels("khateee"))
+
+
+#palindrom 
+
+def is_palindrome(text):
+  
+  text=text.lower()
+  
+  return text == text[::-1]
+  
+
+print (is_palindrome("lloll"))
