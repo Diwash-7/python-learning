@@ -48,9 +48,21 @@ print ("no. of vowels:",vowels("khateee"))
 
 def is_palindrome(text):
   
+  
   text=text.lower()
   
   return text == text[::-1]
   
 
 print (is_palindrome("lloll"))
+
+
+#Write a function that takes a sentence and returns it with the words in reverse order.
+
+def reverse_words(text):
+  
+  words = text.split()
+  
+  return " ".join(words[::-1])
+
+print (reverse_words("hello world how are you man "))
