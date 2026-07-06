@@ -15,3 +15,18 @@ def word_count(text):
 
 print (word_count("what the hell is this man what ?"))  
         
+def most_common_word(text):
+    
+    count = word_count(text)
+    best_word = None
+    best_count = 0
+    for n in count:
+        if count[n] > best_count:
+            best_count = count[n]
+            best_word = n
+
+    return best_word
+            
+    
+
+print(most_common_word("the cat sat on the mat the cat ran"))
